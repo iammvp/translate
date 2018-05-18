@@ -1,0 +1,24 @@
+id:
+  no_such_image: No such image in database
+  email_already_taken: This email is already been used
+  confirm_email_change: Confirm email change
+  invalid_old_password: Old password is invalid.
+
+verify_change_email:
+  title: 'Confirmation email change on #{host}'
+  text: To change email, please click the link
+
+user:
+  name_not_less: Username should not be less than 2 symbols
+  name_not_more: Username should not be more than 256 symbols
+  email_not_empty: Email should not be empty
+  invalid_email: Please specify valid email address
+  email_already_taken: This email is already been used.
+  invalid_gender: Invalid gender.
+  profile_name_not_less: Minimal length of profile name is 2 symbols.
+  profile_name_invalid: Profile name should contains only letters a-z, numbers and dash.
+  profile_name_not_more: Maximal length of profile name is 64 symbols.
+  profile_name_already_taken: This profile name is already taken.
+  password_not_less: Password should contain not less than 4 symbols.
+  account_was_removed: Account was removed
+  missing_teacher_email: Teacher's email is not specified.

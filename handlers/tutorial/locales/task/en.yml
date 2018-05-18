@@ -1,0 +1,17 @@
+open_task:
+  sandbox:
+    tests: Open the sandbox with tests.
+    no_tests: Open the sandbox for the task.
+
+open_solution:
+  sandbox:
+    tests: Open the solution with tests in the sandbox.
+    no_tests: Open the solution in the sandbox.
+
+Importance: Importance
+importance: importance
+solution: solution
+importance_help: How important is the task, from 1 to 5
+
+task_not_found: "Task \"#{path}\" not found"
+back_to_lesson: Back to the lesson

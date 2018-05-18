@@ -1,0 +1,48 @@
+invite:
+  invitation: 课程邀请
+  seat_has_been_reserved: javascript.info #{title} 课程已被注册。"
+  click_to_join: "点击 <a href=\"#{link}\">#{link}</a>，加入小组"
+  auto_login: 您会自动登录这个网站。
+  contact_person: "邀请人： #{name}."
+  questions: 如果您有任何问题请恢复这个邮件。
+
+invite_remind:
+  title:  请加入小组
+  hello: 您好！
+  still_not_joined: "您在参与者小组列表中，但是您还没有加入小组 #{title} 。"
+  join_for: 您需要参加和接收材料。
+  click_to_join: "您可以通过这个链接 <a href=\"#{link}\">#{link}</a> 加入小组。"
+  questions: 如果您有任何问题请恢复这个邮件。
+
+materials:
+  title: 课程材料通知
+  materials_added: "材料已经被加入到了这个页面 <a href=\"#{link}\">#{link}</a>。"
+  click_to_download: "您可以直接下载文件 (您必须已经登录): <a href=\"#{fileLink}\">#{fileTitle}</a>。"
+
+move:
+  title: 转组通知
+  hello: 您好！
+  you_were_moved: "您从 \"#{oldGroup}\" 转到了 \"#{newGroup}\"。"
+  questions: 如果您有任何问题请恢复这个邮件。
+
+order_cancel:
+  title: "您的订单 #{number} 因为过期已被取消"
+  order_cancelled: "你在 JavaScript.info 的订单 #{number} 已被自动取消。"
+  group_start_soon: "&nbsp;因为马上开始的课程和缺少付款信息."
+  payment_expired: "&nbsp;因为过期的课程和缺少付款信息."
+  duplicate: "您已经为这个组付款了,订单号 #{number},所以相同的订单被删除."
+  list_orders: "您可以在您的账号查看激活的订单列表:&nbsp;"
+  need_login: "&nbsp;(您需要登录)."
+  already_payed_or_soon: 如果您已经支付了这个订单或者计划今天支付 — 请回复这个邮件.
+  already_payed: 如果您已经支付了这个订单或者计划今天支付 — 请回复这个邮件.
+  info: 自动取消未支付的订单是为了移除未激活的订单.
+
+payment_confirmation:
+  title: 支付确认
+  payment_confirmed: "我们确认收到您订单 #{number} 的支付."
+  participation_confirmed: 您的注册已被批准.
+  free_participation: 您的注册没有付款被批准.
+  no_participants: "您没有选择参与者。你可以通过您账户订单详情 <a href=\"#{profileOrdersUrl}\">Orders</a> 选择."
+  is_participant: "点击链接 <a href=\"#{orderUserInviteLink}\">#{orderUserInviteLink}</a> 加入小组."
+  confirmation_email: "被您邀请的参与者也会收到来自 orders@javascript.info 的email."
+  questions: "如果您有任何问题请恢复这个邮件。"

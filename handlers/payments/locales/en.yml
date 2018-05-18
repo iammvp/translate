@@ -1,0 +1,16 @@
+client:
+  choose_payment_method: Choose payment method
+  specify_company_name: Specify company name
+  error_start_again: >
+    <p>#{message}</p><p>Please try purchase again.</p>
+    <p>If you think that there is an error on server - contact with <a href='mailto:#{email}'>
+    customer service</a>.</p>
+  maybe_purchase_error: >
+    <p>#{message}</p><p>If you think an error has occurred &mdash;
+    please contact with <a href='mailto:#{email}'>customer service</a>.</p>
+  purchase_error: >
+    An error has occurred, please contact with <a href='mailto:#{email}'>customer service</a>.
+
+currency: "USD"
+
+payment_for: "Payment for"

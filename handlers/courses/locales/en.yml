@@ -1,0 +1,206 @@
+feedback: " Feedback on the courses\n #{title}"
+
+by_user:
+  title: Course description
+  info: Environment setting instructions
+  slack_logs: Slack chat logs
+  jb: Discount for Jetbrains editors
+  ical: Schedule in iCal format
+  materials: Learning materials
+  participants: Participants’ forms
+  participants_json: Participants’ JSON (for CORS)
+
+group_feedback_list:
+  plural_feedback: " feedback,feedbacks,feedbacks"
+
+group_feedback_edit:
+  no_participant: Only group participants can leave feedback.
+  no_rights: Insufficient rights
+  title: Feedback
+  public_feedback: Your feedback has been saved successfully. You can share it in social networks.
+  private_feedback: Your feedback has been saved successfully. Only we can see it.
+  rate_course: Please rate this course.
+  missing_feedback_text: You forgot to write the feedback.
+
+group_feedback_show:
+  private_feedback: Private feedback
+  title: Feedback
+  head_title: Feedback on
+  comment_saved: Comment has been saved
+  comment_save_error: Comment has not been saved
+  edit: Edit
+
+group_finish: "Group #{title} has completed the course successfully."
+
+group_materials:
+  title: Learning materials
+  added_with_notifications: The material has been added, notifications have been sent.
+  added_wo_notifications: The material has been added, notifications have NOT been sent.
+  email_subject: New course materials have been added
+  remove_file: Remove file
+  file_removed: The file has been deleted.
+  settings_saved: The setting has been saved.
+
+group_materials_download:
+  invalid_link: Invalid link. Probably, this material has been added by mistake and later deleted by the teacher.
+
+group_slack_invite:
+  no_target: Neither a participant and nor a teacher
+  no_slack_user:
+    "This user is not registered in Slack. At first, register in
+    <a href=\"#{slack_url}\">#{slack_url}</a> with email #{email}."
+  user_added:
+    "User #{email} has been added to slack channel #{groupSlug}."
+
+participants:
+  data_updated: This data has been updated.
+  fix_errors: Please fix errors.
+
+invite:
+  order: "Order #{order}"
+  success: Congratulations, you have joined the course. Below, next to the course, you will find the instruction.
+  already_accepted_title: Invitation has already been accepted
+  already_accepted: This invitation has already been accepted. Log in to the account of the course participant.
+  outdated_link_title: Outdated link
+  outdated_link:
+    "Sorry, this link is outdated.
+    If you have any questions, please send them to <a href=\"mailto:#{email}\">#{email}</a>"
+  already_added: You are course participant already. Below, next to the course, you will find the instruction.
+  choose_country: " choose country "
+  form_title: Participant’s form
+
+signup:
+  title: "Order No. #{order}"
+  no_such_group: There is no such group.
+  signup_finished_title: Sign up for this group is finished
+  signup_finished:
+    "Sign up for this group is finished.
+     Go to <a href=\"/courses/#{slug}\">the course page</a> to see groups open for sign up."
+  signup_title: "Sign up\n #{title}"
+  tutorial: Tutorial
+  courses: Courses
+  plural_human: "person,persons,persons"
+  receiptTitle: "Participation in the course for #{count} #{people}"
+  email_subject: "Order #{order}"
+  payment_failed: Payment has not been proceed, please try again.
+  questions: "For any questions regardin payment please send email to <a href=\"mailto:#{ordersMail}\">#{ordersMail}</a>."
+  contact_info: "Contact information:"
+  payment: "Payment:"
+  payment_succeed: Succeed
+  payment_pending: Waiting for been confirmed
+  thanks_for_order: Thanks for the order!
+  confirmation: "Confirmation will be received soon at #{email}"
+  click_to_join_group:
+    "Please go to section <a href=\"#{url}/courses\">Courses</a> in your account for joining the group."
+  edit_participants:
+    "Editing information of other participants is available in the section <a href=\"#{url}/orders\">Orders</a> of you account.
+    They will also receive notifications."
+  questions_after: "If you have any questions, please send them to <a href=\"mailto:#{email}\">#{email}</a>"
+  teacher: Teacher
+  seats_pluralize: "seat,seats,seats"
+  seats_left: "#{seats} #{seats_pluralized} left"
+  seats_limited: "Seats are limited"
+  signup_button: Signup
+  subscribe: Subscribe
+  confirmation_email: Confirmation email with program details and dates will be send to your email.
+  this_course: This course is
+  conducted_plural: "conducted by:"
+  conducted_single: "conducted by:"
+
+feedback_loader:
+  no_feedback: No feedbacks yet.
+
+photo_load_widget:
+  wrong_format: Wrong file type or image has been damaged.
+
+participant_item:
+  participant: Participant
+  invalid_email: Enter valid email
+
+comment_form:
+  submit: Publish
+  cancel: Cancel
+
+admin:
+  no_such_order: No such order.
+  no_such_group: No such group
+  no_such_file: No such file
+  transer_participant: "You have been transfered to new group #{title}"
+  transfer_succeed_notified: Transfer has been finished, notification has been sent.
+  transfer_succeed_not_notified: Transfer has been finished, notification has NOT been sent.
+  participant_deducted: "Participant has been deducted: #{email}"
+  document_uploaded: "Manager has been attached documents to the order: #{order}"
+
+course:
+  code_discount: Discount has been provided by code
+
+patch:
+  information_updated_notified: "Information has been updated invitations have been sent to: #{emails}."
+  information_updated_not_notified: Information about participants has been updated.
+
+chat_logs:
+  title: Group chat logs
+  timeframe_from: Timeframe from
+  timeframe_to: to
+  apply: Apply
+
+contacts:
+  title: Contact information
+  note:
+    "Leave your contact details so that we can contact you
+    if necessary"
+  name_surname: "Name and surname:"
+  phone: "Phone number:"
+  data_secured: You personal data is secure
+  personal_info:
+    "No your personal data
+    will not be given to third parties, except at your request or for
+    objectives of the contract concluded with you."
+  save_and_continue: Save and continue
+
+grayed_list:
+  contact_info: Contact information
+  payment: Payment
+  confirmation: Confirmation
+
+participant_register:
+  title: Seats and participants
+  participants_count: Participants count
+  only_one_place: Sorry, there is only one seat left
+  enter_count: "enter count from 1 to #{max}"
+  already_participant: I am already participant
+  no: NO
+  yes: YES
+  amount: Total amount
+  add_participants: Add participants
+  add_later: "(it could be done later)"
+  save_and_continue: Save and continue
+
+payment:
+  title: Payment
+  do_not_pay_twice: Do not pay twice. Change payment method only if you know that payment has not been proceed.
+  terms_accept: "By registering for courses, you agree to the <a href=\"/courses/offer.ru.pdf\" target=\"_blank\">contract of offer</a>."
+  questions: "If you have any questions, please send them to <a href=\"#{ordersMail}\">#{ordersMail}</a>."
+  goto_payment: Go to payment
+
+participant_info:
+  country: Country
+  city: City
+  about_link: Link to profile
+  occupation: Occupation
+  purpose: What is your purpose of participating this course?
+  wishes: You wishes of this course
+
+additional_information: Additional information
+back_to_all: All courses
+
+
+create_order:
+  recording_finished: "This group is full, sorry."
+  no_seats: "We're sorry, this group is out of seats already."
+  seats_limit: "We're sorry, there are no so many seats. Please decrease the number of seats to #{max}."
+  no_contact_person: "No contact person."
+  no_participants: "No participants."
+  not_authorized: "You're not authorized."
+  title_check_prefix: "Learning at the course:"
+  payment_for: "Payment for"

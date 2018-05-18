@@ -1,0 +1,6 @@
+title: "Manage your subscription"
+manage_subscription: "Customize subscription settings for #{email}."
+your_email: "Your email address:"
+themes: "Topics:"
+delete_my_address: "Delete my email from the newsletter database"
+save: "Save"

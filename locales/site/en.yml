@@ -1,0 +1,75 @@
+toolbar:
+  logo:
+    normal:
+      svg: sitetoolbar__logo_en.svg
+      width: 200 # 171
+    normal-white:
+      svg: sitetoolbar__logo_en-white.svg
+    small:
+      svg: sitetoolbar__logo_small_en.svg
+      width: 70
+    small-white:
+      svg: sitetoolbar__logo_small_en-white.svg
+  sections:
+    - slug: 'tutorial'
+      title: 'Tutorial'
+    - slug: 'courses'
+      title: 'Courses'
+  buy_ebook_extra: 'Buy'
+  buy_ebook: 'EPUB/PDF'
+  search_placeholder: 'Search on Javascript.info'
+  search_button: 'Search'
+
+  public_profile: Public profile
+  account: Account
+  notifications: Notifications
+  admin: Admin
+  logout: Logout
+
+errors:
+  server_connection_error: Server connection error.
+  server_request_timeout: Server request timeout.
+  request_aborted: Request was aborted.
+  no_response: No response from server.
+  server_error: "Server error (code #{status}), try again later."
+  invalid_format: Invalid response format.
+
+sorry_old_browser: Sorry, IE<10 is not supported, please use a newer browser.
+contact_us: contact us
+about_the_project: about the project
+ilya_kantor: Ilya Kantor
+comments: Comments
+loading: Loading...
+search: Search
+share: Share
+donate: Donate
+read_before_commenting: read this before commenting…
+
+tablet-menu:
+  choose_section: Choose section
+  search_placeholder: Search in the tutorial
+  search_button: Search
+
+tutorial_map: Tutorial map
+comment:
+  help:
+    - You're welcome to post additions, questions to the articles and answers to them.
+    - To insert a few words of code, use the <code>&lt;code&gt;</code> tag, for several lines – use <code>&lt;pre&gt;</code>, for more than 10 lines – use a sandbox (<a href='http://plnkr.co/edit/?p=preview'>plnkr</a>, <a href='http://jsbin.com'>JSBin</a>, <a href='http://codepen.io'>codepen</a>…)
+    - If you can't understand something in the article – please elaborate.
+
+edit_on_github: Edit on Github
+hide_forever: hide permanently
+Error: Error
+close: close
+Close: Close
+
+hidden_forever: This information will not show up any more.
+
+profile_tab_names:
+  quiz: Quizes
+  orders: Orders
+  courses: Courses
+  aboutme: Public profile
+  subscriptions: Notifications
+  jobs: Jobs
+  account: Account

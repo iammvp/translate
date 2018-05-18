@@ -1,0 +1,148 @@
+loading: Loading...
+
+profile_ok_cancel:
+  save: Save
+  cancel: Cancel
+
+aboutme:
+  title: Information about you that will be available for other visitors
+  name: Name
+  placeholder: John Smith
+  public_email: Public email
+  country: Country
+  town: City
+  birthday: Birthdate
+  interests: Interests
+  about: About
+  text_only: Only text and link, not more than 600 symbols.
+  signature: Signature for email
+
+account:
+  title: Managing account
+  displayName: Username
+  profileName: Profile name
+  profiles: Linked external accounts
+  signin_by_one_click: After you have linked external account below it will be possible to sign in with just one click.
+  remove_provider: Remove link
+  remove_account: Delete the account
+  timezone: Time zone
+
+course_feedback_list: Participants' feedback
+
+course_groups:
+  dateStart: Start date
+  lessons: Lessons
+  accepted: Participation confirmed
+  accept: Confirm participation
+  started: Lessons started
+  join_webinar: Join webinar
+  start_webinar: Start webinar
+  finished: The course is finished
+  give_feedback: Leave feedback
+  download_certificate: Download certificate
+  finish_group: Finish the group
+
+order_contact:
+  title: Contact information
+  name_surname: 'Name and surname:'
+  name_placeholder: John Smith
+  phone: 'Phone:'
+  phone_placeholder: "+X XXX XXX-XX-XX"
+  save_contacts: Save contacts
+
+order_participants:
+  title: Participants
+  participant: Participant
+  participation_confirmed: Participation confirmed.
+  confirmation_after_payment: Participation confirmation will be available after payment.
+  confirmation_required: The participant shall confirm participation.
+  invalid_email: Invalid email.
+  save_participants: Save participants.
+
+orders:
+  no_orders: No active orders.
+  order: Oder
+  free: Free
+  busy: Occupied
+  confirmed: confirmed
+  order_details: order details
+  course_description: Course description
+  currency: USD
+  payment_pending: >
+    We are waiting for payment currently. After payment confirmation,
+    letter with all required information will be send to the participants.
+  payment_success: >
+    Invitation letter will be send to each participant. Participant can be changed until
+    they accept it.
+  payment: Payment
+  change_payment_method: Change payment method
+  cancel_order: Cancel the order
+  vacancies: "vacancy,vacancies,vacancies"
+
+auth_providers:
+  connect: 'Link:'
+
+profile_field:
+  value_must_not_be_empty: Value must not be empty.
+  value_is_too_short: Value is too short.
+  invalid_email: Invalid email.
+  invalid_date: 'Invalid date, date format: dd.mm.yyyy.'
+  invalid_range: Invalid date range, please use right date.
+  save: Save
+  cancel: Cancel
+
+password:
+  title: Change password
+  old_password: 'Old password:'
+  new_password: 'New password:'
+  specify_password: Enter the password
+  password_should_not_be_empty: Password must not be empty.
+  password_is_too_short: Password is too short.
+  save: Save
+  cancel: Cancel
+
+photo:
+  upload: Upload<br> photo
+  teacher: Teacher
+
+quiz:
+  no_quizes: No quizes passed.
+  result: 'Result:'
+  level: 'Level:'
+  time_spent: 'Time spent:'
+jobs:
+  no_jobs: You have no vacancies
+
+subscriptions:
+  title: Receive notifications about...
+  save: Save
+
+client:
+  photo_updated: Photo was updated.
+  invalid_photo: Invalid photo extensions or file is broken.
+  password_updated: Password was updated.
+  server_error: Request error, status code
+  displayname_updated: Your username was updated.
+  confirm_email: Email changing confirmation is required, check your email.
+  profilename_updated: Your profile is available by new link, the page will be reloaded.
+  information_updated: Information updated.
+  settings_updated: Settings updated.
+  you_removed_participants: >
+    'You removed participants, who received invitations: #{removedEmails}.
+    \nIf you continue theirs invitations will become invalid.\nContinue?'
+  user_removed: User was removed.
+  remove_user: remove user without possibility to recover?
+  remove_link: remove link
+  order_will_be_cancelled: Order will be cancelled without possibility to recover. Continue?
+  order_removed: Order was removed.
+  notifications_updated: Notifications were updated.
+
+  config:
+    title: Public profile
+    account: Account
+    quiz: Quizes
+    jobs: Jobs
+    notifications: Notifications
+    orders: Orders
+    courses: Courses
+

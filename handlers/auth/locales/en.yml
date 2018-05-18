@@ -1,0 +1,106 @@
+if_you_dont_have_account: 如果你还没有账号，你可以
+signup: 注册
+email_field_label: Email
+password_field_label: Password
+
+login_form:
+  title: 登录
+  registration_link: 注册
+  forgot: 忘记密码?
+  login_button: 登录
+  cancel: 取消
+  login_using_socialnetworks: 登录为...
+  test_mode: 登录目前还只是测试功能，登录了也没有什么卵用。
+
+signup_form:
+  title: 注册
+  login_link: 登录
+  if_you_already_have_account: 已有账号？
+  login: 登录
+  email_field_label: Email
+  displayName_field_label: 用户名
+  password_field_label: 密码
+  signup: 注册
+  cancel: 取消
+  by_registering_you_agreed: 我已同意
+  terms: 使用条例
+
+auth_form:
+  letter_resend: >
+    <p>确认邮件已经发送。</p>
+    <p><a href='#' data-action-verify-email='#{email}'>再次发送。</a></p>
+  enter_email: 请输入 email。
+  enter_displayname: 请输入用户名。
+  enter_password: 请输入密码。
+  letter_sent: >
+    <p>确认邮件已发送至 #{notifyEmail}. 请检查您的邮箱。</p>
+    <p><a href='#' data-action-verify-email='#{email}'>重新发送。</a></p>
+  unknown_error: 服务器未知错误。
+  forbidden: Forbidden.
+  auth_reject: 授权被拒绝。
+
+forgot:
+  no_such_user: 用户不存在
+  access_recovery: 找回密码
+  letter_sent: 修改密码的邮件已发送至您的邮箱
+
+forgot_email:
+  title: 找回 javascript.info 密码
+  text: 点击下面的链接找回密码
+
+forgot_recover:
+  invalid_link: 您访问的链接已过期。
+  invalid_link_received: 您访问的重置密码链接已过期。
+  password_empty_error: 密码不能为空。
+  password_length_error: 密码至少包含四个符号。
+  title: 密码重置
+  close: 关闭
+  new_password: 新密码
+  save_password: 保存密码
+
+login:
+  title: 登录
+
+register:
+  already_exists: >
+    如果这是你的邮箱，你可以 <a data-switch="login-form" href="#">登录</a> 或者
+    <a data-switch="forgot-form" href="#">找回密码</a>.
+  confirm_email: 邮箱确认
+  email_sent_error: 发送确认邮件错误。
+  email_title: '来自 #{url} 的确认邮件'
+  goto_link: '请点击下面的链接来确认您的邮箱：'
+
+reverify:
+  email_empty_error: 请输入邮箱。
+  no_such_user: 用户不存在。
+  email_already_confirmed: 您的邮件已经确认过。
+  email_subject: 确认邮箱
+  sending_email_error: 发送邮件错误。
+
+verify:
+  invalid_link: 确认链接过期或者
+  email_already_taken: 禁止修改邮箱，该邮箱已被使用。
+  email_already_verified: '没有变化：您的邮箱已经被确认过，不能改变邮箱。'
+
+authenticateByProfile:
+  entrance_is_forbidden: 很遗憾，您无法用该邮箱注册。
+  not_enough_data: 信息不足，请允许信息转译。
+
+mustNotBeAuthenticated:
+  must_not_be_authenticated: 未登录用户才能使用这个。
+
+forgot_form:
+  title: 密码重置
+  do_recovery: 重置密码
+  login: 登录
+  registration: 注册
+  cancel: 取消
+
+facebook_strategy:
+  no_email_error: 请允许进入邮箱。它用来识别用户。
+  request_error: Facebook 请求错误
+
+
+github_strategy:
+  error_connection: 链接 github.com 错误。
+  email_not_confirmed: 请确认您的 github 邮箱。

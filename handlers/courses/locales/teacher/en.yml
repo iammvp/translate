@@ -1,0 +1,6 @@
+group_start_soon: "小组即将开始: #{title}"
+reminder: "提醒 #{title}"
+no_such_course: 课程不存在
+not_a_teacher: 你不是所选课程的主人
+days: ['', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
+group_exists: "小组 #{slug} 已经存在"

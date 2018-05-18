@@ -1,0 +1,109 @@
+title: JavaScript 教程
+description: >
+  在这儿你能学到专业的 JavaScript，本教程专注于教学者思考 JavaScript 的内涵，写出简单，有效率的代码。
+opened_courses: 查看即将到来的课程
+people_talk_about: 反馈本教程
+features:
+  - name: 质量
+    title: 质量
+    text: 这是非常重要的一部分。我们学习怎样以高职业水准开发。
+  - name: 在线
+    title: 在线学习
+    text: 毫无疑问，这比现场培训更方便。
+  - name: 讲师
+    title: 支持
+    text: 你将得到个人开发建议
+  - name: 结果
+    title: 结果
+    text: 本教程专注于让学者获得具体的技能和知识
+  - name: 保证
+    title: 保证
+    text: 不满意包退款
+program: 注册学习更多
+opinions: 专业建议
+ongoing: 注册了解更多
+teachers_title: 老师,老师们,老师们
+teachers_description: >
+  本网站的课程都是多年专业老司机教授的. 每个老师都有丰富的理论和实践经验, 来吧, 老司机带你飞.
+phone_toggler: 关于本教程和老师
+faq:
+  title: 常见问题
+  questions:
+    - title: 这些都是真的吗? 这些课程都真的这么棒吗?
+      answer:
+        - "<p>这看你的个人情况啦.</p><p>我们并没有 HTML/CSS/PHP/Photoshop 等的教程.</p>
+          <p>我专注于 <strong>on JavaScript only</strong>. 并尽可能做到最好. 在本页上面选一个你感兴趣的课程, 看看本课程是否合你的胃口.</p>"
+    - title: 你们支持哪些支付方式? 公司能为我付款吗?
+      answer:
+        - "<p>所有的主流支付方式都支持. 你可以通过银行转账, Webmoney, Paypal, Yandex.Money,
+          银行卡, 或者公司为你付款.</p><p>如果有需要的话, 签名的文件会可以扫描发给你也可以通过邮件发送你.</p><p>你可以在注册的时候选择合适你的支付方式.</p>"
+    - title: 可以下载课程吗?
+      answer:
+        - "<p>我们有一系列的教学视频支持参与者下载.但是本教程的主要思想是在网上跟着老师学习,
+        我们会经常开会交流,那样你有会多机会向有经验的开发者展示你的代码,交流你的困惑,问些问题,提升你的代码能力.
+       </p><p>这是一种完全不一样的方式, 而不是那些 \"可以下载\" 甚至 \"机械目标\" 教程, 因此本课程会让你得到完全不一样的结果.</p>"
+    - title: 会不会有人学了没什么用?
+      answer:
+        - "<p>我们会根据参与者的水平定值课程. 所有的参与者都能胜任并且成功的完成课程.</p><p>学习曲线平滑,
+          开始慢,然后加快速度以保证所有人都能完成所有的课程.</p>
+          <p>如果有人学了没有进步,请告诉我.我会帮助他,甚至可以组织额外的课程都没问题.如果你觉得没有进步,请告诉我.我们既不会丢下初级水平学生也不会阻碍整个小组的笑了.最坏的情况下,也可以更正下一站重新学习一边.</p>"
+    - title: 我会得到证书吗?
+      answer:
+        - "<p>你可以下载电子格式的证书. 请注意我们更加关注知识和技能;通常情况下证书在面试的时候并不是很重要 .</p>"
+    - title: 你有其他课程的计划吗...? 什么时候?
+      answer:
+        - "<p>这很难预测. 计划赶不上变化. 如果你真的想知道其他课程的信息,你可以<a href=\"/newsletter\" target=\"_blank\">请求等多</a>.</p>"
+  another_question: "你有其他问题吗? 你可以在下面的评论框里提问或者给我些邮件
+    <a href=\"mailto:mk@JavaScript.ru\">mk@JavaScript.ru</a> (我经常查看邮箱), 非常着急的话你也可以打我电话&nbsp; +7-903-5419441."
+  old_comments: "你可以在这个页面<a href=\"https://JavaScript.ru/courses\">旧网站</a>.看一些以前的评论"
+learn_more: 更多
+guarantee:
+  title: 保证
+  description: 所有的参与者, 无论性别,年龄,宗教信仰&hellip;
+  subtitle: "承诺:"
+  reasons:
+    - 如果你不能理解老师的讲解
+    - 如果你通过我们的课程获取新的技能和只是
+    - 如果你无法连接我们的在线学习系统
+  result: &hellip;你能退款.
+  condition: >
+    你只需要告诉我详细的原因, 告诉我你什么不满意, 在课程结束前一周提供你的身份证明(为了防止退款不被黑客窃取); 然后你就会终止课程,你可以以你方便的方式获得你的退款.
+participant_logos:
+  title: 我们的学员
+  description: >
+    我从2006开始就开始做专业的 JavaScript 补习班, 2011年开始做 JavaScript 教程. 在这期间, 帮助数以千计的来之几百个公司的参与者完成培训, 所以完全统计太难了.
+    尤其是一下公司的员工参加了我的补习班和教程:
+  notes: >
+    你可以在 <a href="https://JavaScript.ru/course/afters">这里</a> 和 <a href="https://JavaScript.ru/course/afters">这里</a> 找到很多之前的培训反馈,
+    你也可以在本页读到很多反馈. 你可以找到专业人士关于本课程的建议.
+professionals:
+  title: 专业人士建议
+  articles:
+    - userpic: "/img/courses/dmitryx.jpg"
+      username: Dmytro Poliakov
+      linkedin_link: "https://www.linkedin.com/in/dmitryx"
+      about: >
+        <a href="http://google.com">Google</a> 前端开发工程师,主要开发了 <a href="http://youtube.com">Youtube</a>,
+        拥有超过15年的架构师和开发经理工作经验.
+      feedback: >
+        我参加了一些 Ilya 主持的补习班, 学到了很多有用的信息.
+        我非常喜欢那种专业的氛围, 演讲非常棒, 结构也非常好, 提供了很多非常好的例子.
+        我认为 Ilya 是最好的 JS 开发者和讲师之一.
+        我强烈推荐这些课程给多有想提高他们知识的人.
+    - userpic: "/img/courses/andrewsumin.jpg"
+      username: Andrew Sumin
+      linkedin_link: "https://ru.linkedin.com/in/andrewsumin"
+      about: >
+        <a href="http://mail.ru">Mail.ru</a> 的前端开发带头人, 同时也参与了 <a href="http://hh.ru">hh.ru</a> 和 <a href="http://yandex.ru">yandex.ru</a>.
+      feedback: >
+        2006年的时候, 我还在 Yandex 做前端, 我参加了 Ilya 的课程.
+        在那个时候他的补习班给我的影响就是, 非常强的专业背景, 对所有知识点都分析详细.
+        我真心的推荐 Ilya 的课程给所有想深入了解 JavaScript 的人.
+    - userpic: "/img/courses/tyv.jpg"
+      username: Yuri Tkachenko
+      linkedin_link: "https://ua.linkedin.com/in/tkachenkoyuri"
+      about: >
+        <a href="http://yandex.ru">Yandex</a> 前端工程师, 领导一个3人的布局团队, 拥有超过10年的前端开发经验.
+      feedback: >
+        在我在 Yandex 带领一个布局团队的时候, 我需要组织一次大团队的专业培训.经过全面的分析, 
+        我选择了 Ilya Kantor的课程, 结果非常棒. 我相信这是全俄罗斯最棒的教程.

@@ -1,0 +1,14 @@
+course_feedback:
+  missing_score: 请输入评分.
+  missing_text: 请输入反馈.
+  missing_country: 请选择国家.
+course_group:
+  invalid_timeStart: 开始时间无效
+  invalid_timeEnd: 结束时间无效
+course_participant:
+  missing_name: 请输入名字.
+  invalid_name: 名字需要包含一个字母.
+  missing_surname: 请输入姓.
+  invalid_surname: 姓需要包含一个字母.
+  missing_country: 请选择国家.
+  invalid_url: page URL 无效.

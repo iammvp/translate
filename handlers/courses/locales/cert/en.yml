@@ -1,0 +1,4 @@
+line1: "这被用来认证从 #{dateStart} 至 #{dateEnd}"
+line2: 已完成的教程
+no_user: 不存在该用户
+no_participant: 没有这样的参与者

@@ -1,0 +1,29 @@
+newOrder:
+  title: 购买 EPUB/PDF 
+  choose_course: 你需要哪部分教程?
+  price: 价格
+  specifyEmail: 请输入你的邮箱
+  note: 付款后下载链接会发送到这儿.
+  choose_payment: 选择付款方式
+  continue: 继续
+  confirmation: 确认
+  currency: USD
+  continue_with_paypal: PayPal 支付
+orders:
+  order: 订单
+  failed: 支付失败, 请稍候再试.
+  currency: $
+  payment: 付款
+  successful: 成功
+  pending: 等待确认
+  amount: 价格
+  choose_another_payment: 选择其他付款方式
+  do_not_pay_twice: 不要付款两次.只有你确认之前的付款方式失败后再修改支付方式.
+  questions: 如果你有任何问题请发送到
+  thanks: 谢谢您的消费.
+  confirmation_soon: "确认消息将发送到 #{email}"
+  download_now: "现在你可以通过点击下载教程:"
+client:
+  enter_email: 输入邮箱.
+onPaid:
+  subject: JavaScript 教程 EPUB/PDF

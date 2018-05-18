@@ -1,0 +1,22 @@
+dropbox_share:
+  enter_email: >
+    请输入你的 Dropbox 账号.
+    你将收到一个邀请 (测试功能).
+  by_default: >
+    你的邮箱默认会输入到这儿, 但是如果你使用的其他是 Dropbox 账号, 你可以修改它.
+  request_access: 请求进入目录
+materials:
+  notify_me: '有新消息推送到我的邮箱.'
+  title: 添加材料
+  filename: '文件名, 按课程时间:&nbsp;&nbsp;'
+  comment: 评论 (可选)
+  notifications: 发送通知
+  submit: 添加
+  serial_number: "视频系列号:"
+  name: 名字
+  size: 大小
+  added_date: 添加于
+  no_materials: 还没有材料, 之后会添加.
+  chat_logs: 聊天记录
+slack_logs:
+  title: 小组聊天记录
