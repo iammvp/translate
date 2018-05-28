@@ -1,3 +1,3 @@
-to_manage_subscription: "To manage subscription"
-click_here: "click here"
-signature: "<em>Regards,<br>#{name}</em>"
+to_manage_subscription: "管理订阅"
+click_here: "点击这里"
+signature: "<em>您好,<br>#{name}</em>"

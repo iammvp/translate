@@ -1,206 +1,203 @@
-feedback: " Feedback on the courses\n #{title}"
+feedback: " 课程反馈\n #{title}"
 
 by_user:
-  title: Course description
-  info: Environment setting instructions
-  slack_logs: Slack chat logs
-  jb: Discount for Jetbrains editors
-  ical: Schedule in iCal format
-  materials: Learning materials
-  participants: Participants’ forms
-  participants_json: Participants’ JSON (for CORS)
+  title: 课程描述
+  info: 环境设置介绍
+  slack_logs: Slack 聊天记录
+  jb: Jetbrains 编辑用户折扣
+  ical: iCal 格式课程表
+  materials: 学习材料
+  participants: 参与者表格
+  participants_json: 参与者 JSON 数据 (for CORS)
 
 group_feedback_list:
-  plural_feedback: " feedback,feedbacks,feedbacks"
+  plural_feedback: " 反馈,反馈,反馈"
 
 group_feedback_edit:
-  no_participant: Only group participants can leave feedback.
-  no_rights: Insufficient rights
-  title: Feedback
-  public_feedback: Your feedback has been saved successfully. You can share it in social networks.
-  private_feedback: Your feedback has been saved successfully. Only we can see it.
-  rate_course: Please rate this course.
-  missing_feedback_text: You forgot to write the feedback.
+  no_participant: 只有组员才能写反馈.
+  no_rights: 没有权限
+  title: 反馈
+  public_feedback: 你的反馈保存成功. 你的可以分享到社交网站.
+  private_feedback: 你的反馈保存成功. 只有我们可以看见它.
+  rate_course: 请为这个课程打分.
+  missing_feedback_text: 你忘记了写反馈.
 
 group_feedback_show:
-  private_feedback: Private feedback
-  title: Feedback
-  head_title: Feedback on
-  comment_saved: Comment has been saved
-  comment_save_error: Comment has not been saved
-  edit: Edit
+  private_feedback: 隐私反馈
+  title: 反馈
+  head_title: 反馈在
+  comment_saved: 评论已被保存
+  comment_save_error: 评论未被保存
+  edit: 编辑
 
-group_finish: "Group #{title} has completed the course successfully."
+group_finish: "小组 #{title} 已经完成了这个课程."
 
 group_materials:
-  title: Learning materials
-  added_with_notifications: The material has been added, notifications have been sent.
-  added_wo_notifications: The material has been added, notifications have NOT been sent.
-  email_subject: New course materials have been added
-  remove_file: Remove file
-  file_removed: The file has been deleted.
-  settings_saved: The setting has been saved.
+  title: 学习材料
+  added_with_notifications: 材料已添加, 通知已发送.
+  added_wo_notifications: 材料已添加, 通知未发送.
+  email_subject: 新课程材料已添加.
+  remove_file: 移除文件.
+  file_removed: 文件已被删除.
+  settings_saved: 设置已保存.
 
 group_materials_download:
-  invalid_link: Invalid link. Probably, this material has been added by mistake and later deleted by the teacher.
+  invalid_link: 链接不合法. 可能是添加材料错误或者材料已被老师删除.
 
 group_slack_invite:
-  no_target: Neither a participant and nor a teacher
+  no_target: 既不是参与者也不是老师.
   no_slack_user:
-    "This user is not registered in Slack. At first, register in
-    <a href=\"#{slack_url}\">#{slack_url}</a> with email #{email}."
+    "用户没有注册 Slack. 首先, 注册
+    <a href=\"#{slack_url}\">#{slack_url}</a> 电子邮箱 #{email}."
   user_added:
-    "User #{email} has been added to slack channel #{groupSlug}."
+    "用户 #{email} 已经被添加进 slack 频道 #{groupSlug}."
 
 participants:
-  data_updated: This data has been updated.
-  fix_errors: Please fix errors.
+  data_updated: 数据已更新.
+  fix_errors: 请修改错误.
 
 invite:
-  order: "Order #{order}"
-  success: Congratulations, you have joined the course. Below, next to the course, you will find the instruction.
-  already_accepted_title: Invitation has already been accepted
-  already_accepted: This invitation has already been accepted. Log in to the account of the course participant.
-  outdated_link_title: Outdated link
+  order: "订单 #{order}"
+  success: 恭喜, 你已经加入这个课程. 在课程下面, 你可以找到介绍.
+  already_accepted_title: 受邀人已经接受.
+  already_accepted: 受邀人已经接受.使用课程参与者的账号登录.
+  outdated_link_title: 链接过期
   outdated_link:
-    "Sorry, this link is outdated.
-    If you have any questions, please send them to <a href=\"mailto:#{email}\">#{email}</a>"
-  already_added: You are course participant already. Below, next to the course, you will find the instruction.
-  choose_country: " choose country "
-  form_title: Participant’s form
+    "对不起, 这个链接已过期.
+    如果你有任何问题, 请发送到 <a href=\"mailto:#{email}\">#{email}</a>"
+  already_added: 你已经是这个课程的参与者. 在课程下面, 你可以找到介绍.
+  choose_country: " 选择国家 "
+  form_title: 参与者表格
 
 signup:
-  title: "Order No. #{order}"
-  no_such_group: There is no such group.
-  signup_finished_title: Sign up for this group is finished
+  title: "订单 No. #{order}"
+  no_such_group: 没有这样的小组.
+  signup_finished_title: 完成注册这个小组
   signup_finished:
-    "Sign up for this group is finished.
-     Go to <a href=\"/courses/#{slug}\">the course page</a> to see groups open for sign up."
-  signup_title: "Sign up\n #{title}"
-  tutorial: Tutorial
-  courses: Courses
-  plural_human: "person,persons,persons"
-  receiptTitle: "Participation in the course for #{count} #{people}"
-  email_subject: "Order #{order}"
-  payment_failed: Payment has not been proceed, please try again.
-  questions: "For any questions regardin payment please send email to <a href=\"mailto:#{ordersMail}\">#{ordersMail}</a>."
-  contact_info: "Contact information:"
-  payment: "Payment:"
-  payment_succeed: Succeed
-  payment_pending: Waiting for been confirmed
-  thanks_for_order: Thanks for the order!
-  confirmation: "Confirmation will be received soon at #{email}"
+    "完成注册这个小组.
+     检查 <a href=\"/courses/#{slug}\">课程页面</a> 发现可注册小组.""
+  signup_title: "注册\n #{title}"
+  tutorial: 教程
+  courses: 课程
+  plural_human: "个人,个人,个人"
+  receiptTitle: "参与课程的人数 #{count} #{people}"
+  email_subject: "订单 #{order}"
+  payment_failed: 支付失败, 请再试一次.
+  questions: "任何关于支付的问题, 请发送到 <a href=\"mailto:#{ordersMail}\">#{ordersMail}</a>."
+  contact_info: "联系信息:"
+  payment: "支付:"
+  payment_succeed: 成功
+  payment_pending: 等待确认
+  thanks_for_order: 谢谢惠顾!
+  confirmation: "确认信已发送至 #{email}"
   click_to_join_group:
-    "Please go to section <a href=\"#{url}/courses\">Courses</a> in your account for joining the group."
+    "请在账户的 <a href=\"#{url}/courses\">课程</a> 选择加入."
   edit_participants:
-    "Editing information of other participants is available in the section <a href=\"#{url}/orders\">Orders</a> of you account.
-    They will also receive notifications."
-  questions_after: "If you have any questions, please send them to <a href=\"mailto:#{email}\">#{email}</a>"
-  teacher: Teacher
-  seats_pluralize: "seat,seats,seats"
-  seats_left: "#{seats} #{seats_pluralized} left"
-  seats_limited: "Seats are limited"
-  signup_button: Signup
-  subscribe: Subscribe
-  confirmation_email: Confirmation email with program details and dates will be send to your email.
-  this_course: This course is
-  conducted_plural: "conducted by:"
-  conducted_single: "conducted by:"
+    "可以在你账户的<a href=\"#{url}/orders\">订单</a>编辑其他参与者的信息.
+    他们也会接到通知."
+  questions_after: "如果有任何问题,请发送至 <a href=\"mailto:#{email}\">#{email}</a>"
+  teacher: 老师
+  seats_pluralize: "座位,座位,座位"
+  seats_left: "#{seats} #{seats_pluralized} 剩余"
+  seats_limited: "座位有限"
+  signup_button: 注册
+  subscribe: 订阅
+  confirmation_email: 课程详情和时间会发送到你的email.
+  this_course: 这门课是
+  conducted_plural: "老师:"
+  conducted_single: "老师:"
 
 feedback_loader:
-  no_feedback: No feedbacks yet.
+  no_feedback: 还没有反馈.
 
 photo_load_widget:
-  wrong_format: Wrong file type or image has been damaged.
+  wrong_format: 文件类型错误或图片已被损坏.
 
 participant_item:
-  participant: Participant
-  invalid_email: Enter valid email
+  participant: 参与者
+  invalid_email: 输入合法的 email
 
 comment_form:
-  submit: Publish
-  cancel: Cancel
+  submit: 发布
+  cancel: 取消
 
 admin:
-  no_such_order: No such order.
-  no_such_group: No such group
-  no_such_file: No such file
-  transer_participant: "You have been transfered to new group #{title}"
-  transfer_succeed_notified: Transfer has been finished, notification has been sent.
-  transfer_succeed_not_notified: Transfer has been finished, notification has NOT been sent.
-  participant_deducted: "Participant has been deducted: #{email}"
-  document_uploaded: "Manager has been attached documents to the order: #{order}"
+  no_such_order: 订单不存在.
+  no_such_group: 小组不存在
+  no_such_file: 文件不存在
+  transer_participant: "你已经换到了新组 #{title}"
+  transfer_succeed_notified: 切换完成, 通知已经发送.
+  transfer_succeed_not_notified: 切换完成, 通知未发送.
+  participant_deducted: "参与者已被移除: #{email}"
+  document_uploaded: "管理者添加了附件文件到订单: #{order}"
 
 course:
-  code_discount: Discount has been provided by code
+  code_discount: 使用优惠券打折
 
 patch:
-  information_updated_notified: "Information has been updated invitations have been sent to: #{emails}."
-  information_updated_not_notified: Information about participants has been updated.
+  information_updated_notified: "信息已经更新, 邀请已经发送到: #{emails}."
+  information_updated_not_notified: 参与者信息已经更新.
 
 chat_logs:
-  title: Group chat logs
-  timeframe_from: Timeframe from
-  timeframe_to: to
-  apply: Apply
+  title: 小组聊天记录
+  timeframe_from: 时间表从
+  timeframe_to: 至
+  apply: 申请
 
 contacts:
-  title: Contact information
+  title: 联系方式
   note:
-    "Leave your contact details so that we can contact you
-    if necessary"
-  name_surname: "Name and surname:"
-  phone: "Phone number:"
-  data_secured: You personal data is secure
+    "留下你的联系方式那样我们在需要的时候可以联系到你"
+  name_surname: "N姓名:"
+  phone: "电话号码:"
+  data_secured: 你的个人信息会保密
   personal_info:
-    "No your personal data
-    will not be given to third parties, except at your request or for
-    objectives of the contract concluded with you."
-  save_and_continue: Save and continue
+    "除非得到你的允许,你的个人信息不会给任何第三方."
+  save_and_continue: 保存继续
 
 grayed_list:
-  contact_info: Contact information
-  payment: Payment
-  confirmation: Confirmation
+  contact_info: 联系方式
+  payment: 支付
+  confirmation: 确认
 
 participant_register:
-  title: Seats and participants
-  participants_count: Participants count
-  only_one_place: Sorry, there is only one seat left
-  enter_count: "enter count from 1 to #{max}"
-  already_participant: I am already participant
+  title: 座位和参与者
+  participants_count: 参与者数量
+  only_one_place: 对不起, 只剩一个座位了
+  enter_count: "输入 1 到 #{max}"
+  already_participant: 我已经参加了
   no: NO
   yes: YES
-  amount: Total amount
-  add_participants: Add participants
-  add_later: "(it could be done later)"
-  save_and_continue: Save and continue
+  amount: 总价
+  add_participants: 添加参与者
+  add_later: "(之后也可以进行)"
+  save_and_continue: 保存继续
 
 payment:
-  title: Payment
-  do_not_pay_twice: Do not pay twice. Change payment method only if you know that payment has not been proceed.
-  terms_accept: "By registering for courses, you agree to the <a href=\"/courses/offer.ru.pdf\" target=\"_blank\">contract of offer</a>."
-  questions: "If you have any questions, please send them to <a href=\"#{ordersMail}\">#{ordersMail}</a>."
-  goto_payment: Go to payment
+  title: 支付
+  do_not_pay_twice: 不要支付俩次. 只有在确认支付没有执行的情况下修改支付方式.
+  terms_accept: "注册课程表明你同意 <a href=\"/courses/offer.ru.pdf\" target=\"_blank\">用户协议</a>."
+  questions: "如果有任何问题, 请发送到 <a href=\"#{ordersMail}\">#{ordersMail}</a>."
+  goto_payment: 去支付
 
 participant_info:
-  country: Country
-  city: City
-  about_link: Link to profile
-  occupation: Occupation
-  purpose: What is your purpose of participating this course?
-  wishes: You wishes of this course
+  country: 国家
+  city: 城市
+  about_link: 个人信息
+  occupation: 职业
+  purpose: 你参加这个课程的原因是?
+  wishes: 你希望这个课程
 
-additional_information: Additional information
-back_to_all: All courses
+additional_information: 额外信息
+back_to_all: 所有课程
 
 
 create_order:
-  recording_finished: "This group is full, sorry."
-  no_seats: "We're sorry, this group is out of seats already."
-  seats_limit: "We're sorry, there are no so many seats. Please decrease the number of seats to #{max}."
-  no_contact_person: "No contact person."
-  no_participants: "No participants."
-  not_authorized: "You're not authorized."
-  title_check_prefix: "Learning at the course:"
-  payment_for: "Payment for"
+  recording_finished: "对不起这个组满了."
+  no_seats: "很抱歉, 这个小组已经没有空位了."
+  seats_limit: "很抱歉,没有足够的座位. 请减少座位个数至 #{max}."
+  no_contact_person: "没有联系人."
+  no_participants: "没有参与者."
+  not_authorized: "你没有被授权."
+  title_check_prefix: "学习课程:"
+  payment_for: "支付"

@@ -1,29 +1,30 @@
 page_not_found:
   title: 页面未找到
-  desc1: Probably that's because of a big site update, many materials were updated and reorganized.
-  desc2: "You can use the search to find what you need:"
-  find: Search
-  desc3: …or top navigation.
+  desc1: 可能是因为重大更新, 很多材料会被更新和组织.
+  desc2: "你可以用这个搜索找到你想要的:"
+  find: 搜索
+  desc3: …或者上面导航.
 
 
 page_bad_request:
-  title: Bad request
+  title: 错误请求
 
 page_unauthorized:
-  title: Authorization required
-  desc: Maybe you need to <a href="#" data-action-login>log in</a>?
+  title: 要求授权
+  desc: 或者你需要 <a href="#" data-action-login>登录</a>?
 
 page_forbidden:
-  title: Access denied
-  desc1: Maybe you logged into a wrong user?
-  desc2: Maybe you need to log in?
+  title: 拒绝进入
+  desc1: 可能你使用错误的用户名登录?
+  desc2: 可能你需要登录? 
 
 
 service_unavailable:
-  title: Service unavailable
-  desc: Service unavailable, sorry, please try to access it later.
+  title: 服务不可用
+  desc: 服务不可用, 对不起, 请稍候再试
+  .
 
 page_internal_error:
-  title: Internal error
-  mail_subject: Error 500 at #{href}
-  desc: We analyze errors, but you can speedup the process by reporting details to <a href="mailto:#{mail}?subject=#{subject}">#{mail}</a>.
+  title: 网络错误
+  mail_subject: 错误 500  #{href}
+  desc: 我们分析错误, 但是你可以发送错误到 <a href="mailto:#{mail}?subject=#{subject}">#{mail}</a> 加速分析.

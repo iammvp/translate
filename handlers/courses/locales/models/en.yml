@@ -11,4 +11,4 @@ course_participant:
   missing_surname: 请输入姓.
   invalid_surname: 姓需要包含一个字母.
   missing_country: 请选择国家.
-  invalid_url: page URL 无效.
+  invalid_url: 页面 URL 无效.
