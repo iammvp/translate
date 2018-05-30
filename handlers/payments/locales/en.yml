@@ -1,16 +1,16 @@
 client:
-  choose_payment_method: Choose payment method
-  specify_company_name: Specify company name
+  choose_payment_method: 选择支付方式
+  specify_company_name: 选择公司名称
   error_start_again: >
-    <p>#{message}</p><p>Please try purchase again.</p>
-    <p>If you think that there is an error on server - contact with <a href='mailto:#{email}'>
-    customer service</a>.</p>
+    <p>#{message}</p><p>请尝试再次支付.</p>
+    <p>如果你认为服务器有错 - 请联系 <a href='mailto:#{email}'>
+    客服</a>.</p>
   maybe_purchase_error: >
-    <p>#{message}</p><p>If you think an error has occurred &mdash;
-    please contact with <a href='mailto:#{email}'>customer service</a>.</p>
+    <p>#{message}</p><p>如果你认为发生错误 &mdash;
+    请联系 <a href='mailto:#{email}'>客服</a>.</p>
   purchase_error: >
-    An error has occurred, please contact with <a href='mailto:#{email}'>customer service</a>.
+    发生错误, 请联系 <a href='mailto:#{email}'>客服</a>.
 
 currency: "USD"
 
-payment_for: "Payment for"
+payment_for: "付款"

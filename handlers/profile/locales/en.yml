@@ -1,148 +1,146 @@
-loading: Loading...
+loading: 加载中...
 
 profile_ok_cancel:
-  save: Save
-  cancel: Cancel
+  save: 保存
+  cancel: 取消
 
 aboutme:
-  title: Information about you that will be available for other visitors
-  name: Name
-  placeholder: John Smith
-  public_email: Public email
-  country: Country
-  town: City
-  birthday: Birthdate
-  interests: Interests
-  about: About
-  text_only: Only text and link, not more than 600 symbols.
-  signature: Signature for email
+  title: 其他访客可以看到的关于你的信息
+  name: 名字
+  placeholder: 小明
+  public_email: 公开邮箱
+  country: 国家
+  town: 城市
+  birthday: 生日
+  interests: 兴趣
+  about: 关于
+  text_only: 只能包含文字和链接, 不超过600个字符.
+  signature: 邮箱签名
 
 account:
-  title: Managing account
-  displayName: Username
-  profileName: Profile name
-  profiles: Linked external accounts
-  signin_by_one_click: After you have linked external account below it will be possible to sign in with just one click.
-  remove_provider: Remove link
-  remove_account: Delete the account
-  timezone: Time zone
+  title: 管理账户
+  displayName: 用户名
+  profileName: 归档名称
+  profiles: 已链接的外部账户
+  signin_by_one_click: 当你链接了一下的外部账户, 你可以只用点击一下就登陆.
+  remove_provider: 移除链接
+  remove_account: 删除账户
+  timezone: 时区
 
-course_feedback_list: Participants' feedback
+course_feedback_list: 参与者的反馈
 
 course_groups:
-  dateStart: Start date
-  lessons: Lessons
-  accepted: Participation confirmed
-  accept: Confirm participation
-  started: Lessons started
-  join_webinar: Join webinar
-  start_webinar: Start webinar
-  finished: The course is finished
-  give_feedback: Leave feedback
-  download_certificate: Download certificate
-  finish_group: Finish the group
+  dateStart: 开始时间
+  lessons: 课程
+  accepted: 参与确认
+  accept: 确认参与
+  started: 课程已经开始
+  join_webinar: 加入在线讨论
+  start_webinar: 开始在线讨论
+  finished: 课程已经结束
+  give_feedback: 留下反馈
+  download_certificate: 下载证书
+  finish_group: 完成这个小组
 
 order_contact:
-  title: Contact information
-  name_surname: 'Name and surname:'
-  name_placeholder: John Smith
-  phone: 'Phone:'
+  title: 联系信息
+  name_surname: '姓名:'
+  name_placeholder: 小明
+  phone: '电弧:'
   phone_placeholder: "+X XXX XXX-XX-XX"
-  save_contacts: Save contacts
+  save_contacts: 保存联系人
 
 order_participants:
-  title: Participants
-  participant: Participant
-  participation_confirmed: Participation confirmed.
-  confirmation_after_payment: Participation confirmation will be available after payment.
-  confirmation_required: The participant shall confirm participation.
-  invalid_email: Invalid email.
-  save_participants: Save participants.
+  title: 参与者
+  participant: 参与者
+  participation_confirmed: 参与确认.
+  confirmation_after_payment: 支付后你会成功加入.
+  confirmation_required: 参与者需要确认参与.
+  invalid_email: 非法邮箱.
+  save_participants: 保存参与者.
 
 orders:
-  no_orders: No active orders.
-  order: Oder
-  free: Free
-  busy: Occupied
-  confirmed: confirmed
-  order_details: order details
-  course_description: Course description
+  no_orders: 没有激活的订单.
+  order: 订单
+  free: 免费
+  busy: 已占用
+  confirmed: 确认
+  order_details: 订单详情
+  course_description: 课程描述
   currency: USD
   payment_pending: >
-    We are waiting for payment currently. After payment confirmation,
-    letter with all required information will be send to the participants.
+    我们在等待您的付款. 付款成功以后, 所有的要求信息都会发送到参与者.
   payment_success: >
-    Invitation letter will be send to each participant. Participant can be changed until
-    they accept it.
-  payment: Payment
-  change_payment_method: Change payment method
-  cancel_order: Cancel the order
-  vacancies: "vacancy,vacancies,vacancies"
+    确认下会发送到所有的参与者. 直到他们接受之前都可以改变参与者.
+  payment: 付款
+  change_payment_method: 修改支付方式
+  cancel_order: 取消订单
+  vacancies: "空缺,空缺,空缺"
 
 auth_providers:
-  connect: 'Link:'
+  connect: '链接:'
 
 profile_field:
-  value_must_not_be_empty: Value must not be empty.
-  value_is_too_short: Value is too short.
-  invalid_email: Invalid email.
-  invalid_date: 'Invalid date, date format: dd.mm.yyyy.'
-  invalid_range: Invalid date range, please use right date.
-  save: Save
-  cancel: Cancel
+  value_must_not_be_empty: 不能是空值.
+  value_is_too_short: 值太短.
+  invalid_email: 非法邮箱.
+  invalid_date: '非法日期, 日期格式: dd.mm.yyyy.'
+  invalid_range: 非法日期区域, 请使用正确的日期.
+  save: 保存
+  cancel: 取消
 
 password:
-  title: Change password
-  old_password: 'Old password:'
-  new_password: 'New password:'
-  specify_password: Enter the password
-  password_should_not_be_empty: Password must not be empty.
-  password_is_too_short: Password is too short.
-  save: Save
-  cancel: Cancel
+  title: 修改密码
+  old_password: '旧密码:'
+  new_password: '新密码:'
+  specify_password: 输入密码
+  password_should_not_be_empty: 密码不能为空.
+  password_is_too_short: 密码太短.
+  save: 保存
+  cancel: 取消
 
 photo:
-  upload: Upload<br> photo
-  teacher: Teacher
+  upload: 上传<br> 照片
+  teacher: 老师
 
 quiz:
-  no_quizes: No quizes passed.
-  result: 'Result:'
-  level: 'Level:'
-  time_spent: 'Time spent:'
+  no_quizes: 没有测试通过.
+  result: '结果:'
+  level: '等级:'
+  time_spent: '花费时间:'
 jobs:
-  no_jobs: You have no vacancies
+  no_jobs: 你没有空缺
 
 subscriptions:
-  title: Receive notifications about...
-  save: Save
+  title: 结果提醒...
+  save: 保存
 
 client:
-  photo_updated: Photo was updated.
-  invalid_photo: Invalid photo extensions or file is broken.
-  password_updated: Password was updated.
-  server_error: Request error, status code
-  displayname_updated: Your username was updated.
-  confirm_email: Email changing confirmation is required, check your email.
-  profilename_updated: Your profile is available by new link, the page will be reloaded.
-  information_updated: Information updated.
-  settings_updated: Settings updated.
+  photo_updated: 照片已更新.
+  invalid_photo: 照片格式不合法, 或者文件已损坏.
+  password_updated: 密码已更新.
+  server_error: 请求错误,状态码
+  displayname_updated: 你的用户名已更新.
+  confirm_email: 修改邮箱需要确认, 请检查你的邮件.
+  profilename_updated: 你的摘要链接已更新, 这个页面即将会刷新.
+  information_updated: 信息已更新.
+  settings_updated: 设置已更新.
   you_removed_participants: >
-    'You removed participants, who received invitations: #{removedEmails}.
-    \nIf you continue theirs invitations will become invalid.\nContinue?'
-  user_removed: User was removed.
-  remove_user: remove user without possibility to recover?
-  remove_link: remove link
-  order_will_be_cancelled: Order will be cancelled without possibility to recover. Continue?
-  order_removed: Order was removed.
-  notifications_updated: Notifications were updated.
+    '你移除了参与者, 他会收到确认信: #{removedEmails}.
+    \n如果你继续, 他们的邀请函会变成不合法.\n继续?'
+  user_removed: 用户已被移除.
+  remove_user: 已经用户并且无法修复?
+  remove_link: 移除链接
+  order_will_be_cancelled: 订单会被取消并且无法修复. 继续?
+  order_removed: 订单已移出.
+  notifications_updated: 提醒已更新.
 
   config:
-    title: Public profile
-    account: Account
-    quiz: Quizes
-    jobs: Jobs
-    notifications: Notifications
-    orders: Orders
-    courses: Courses
+    title: 公共摘要
+    account: 账户
+    quiz: 测试
+    jobs: 任务
+    notifications: 提醒
+    orders: 订单
+    courses: 教程
 

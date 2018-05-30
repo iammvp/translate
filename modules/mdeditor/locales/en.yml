@@ -1,26 +1,26 @@
 text:
-  bold: bold text
-  italic: italic text
-  code: code
-  heading: Heading
-  fencedCode: enter multiline code here
-  ol: List item
-  ul: List item
-  alt: Image desciption
-  link: link text
+  bold: 加粗
+  italic: 倾斜
+  code: 代码
+  heading: 头部
+  fencedCode: 输入多行代码
+  ol: 有序列表
+  ul: 列表
+  alt: 图片描述
+  link: 链接文字
 
 buttons:
-  bold: bold
-  italic: italic
-  code: inline code
-  undo: undo
-  redo: redo
-  fencedCode: multiline code
-  autolink: insert link
-  link: insert link
-  ul: itemized list
-  ol: ordered list
-  heading: heading
-  image: insert image
-  preview: preview
-  cut: in the list show till...
+  bold: 加粗
+  italic: 倾斜
+  code: 行代码
+  undo: 撤销
+  redo: 恢复
+  fencedCode: 多行代码
+  autolink: 插入链接
+  link: 插入链接
+  ul: 列表
+  ol: 有序列表
+  heading: 头部heading
+  image: 插入图片
+  preview: 预览
+  cut: 在列表里直到...

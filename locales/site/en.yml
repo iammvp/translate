@@ -11,65 +11,65 @@ toolbar:
     small-white:
       svg: sitetoolbar__logo_small_en-white.svg
   sections:
-    - slug: 'tutorial'
-      title: 'Tutorial'
-    - slug: 'courses'
-      title: 'Courses'
-  buy_ebook_extra: 'Buy'
+    - slug: '教程'
+      title: '教程'
+    - slug: '课程'
+      title: '课程'
+  buy_ebook_extra: '购买'
   buy_ebook: 'EPUB/PDF'
-  search_placeholder: 'Search on Javascript.info'
-  search_button: 'Search'
+  search_placeholder: '搜索 Javascript.info'
+  search_button: '搜索'
 
-  public_profile: Public profile
-  account: Account
-  notifications: Notifications
-  admin: Admin
-  logout: Logout
+  public_profile: 公共摘要
+  account: 账号
+  notifications: 提醒
+  admin: 管理
+  logout: 登出
 
 errors:
-  server_connection_error: Server connection error.
-  server_request_timeout: Server request timeout.
-  request_aborted: Request was aborted.
-  no_response: No response from server.
-  server_error: "Server error (code #{status}), try again later."
+  server_connection_error: 服务器链接失败.
+  server_request_timeout: 服务器请求超时.
+  request_aborted: 请求超时.
+  no_response: 服务器没有响应.
+  server_error: "服务器错误 (code #{status}),稍候再试."
   invalid_format: Invalid response format.
 
-sorry_old_browser: Sorry, IE<10 is not supported, please use a newer browser.
-contact_us: contact us
-about_the_project: about the project
+sorry_old_browser: 抱歉,不支持 IE<10, 请使用新浏览器.
+contact_us: 联系我们
+about_the_project: 关于项目
 ilya_kantor: Ilya Kantor
-comments: Comments
-loading: Loading...
-search: Search
-share: Share
-donate: Donate
-read_before_commenting: read this before commenting…
+comments: 评论
+loading: 加载中...
+search: 搜索
+share: 分享
+donate: 捐赠
+read_before_commenting: 发表评论前请阅读这个…
 
 tablet-menu:
-  choose_section: Choose section
-  search_placeholder: Search in the tutorial
-  search_button: Search
+  choose_section: 选择部分
+  search_placeholder: 在教程中搜索
+  search_button: 搜索
 
-tutorial_map: Tutorial map
+tutorial_map: 教程地图
 comment:
   help:
-    - You're welcome to post additions, questions to the articles and answers to them.
-    - To insert a few words of code, use the <code>&lt;code&gt;</code> tag, for several lines – use <code>&lt;pre&gt;</code>, for more than 10 lines – use a sandbox (<a href='http://plnkr.co/edit/?p=preview'>plnkr</a>, <a href='http://jsbin.com'>JSBin</a>, <a href='http://codepen.io'>codepen</a>…)
-    - If you can't understand something in the article – please elaborate.
+    - 非常欢迎你发表问题, 答案.
+    - 使用 <code>&lt;code&gt;</code> 标签发表简单代码, 使用 <code>&lt;pre&gt;</code> 发表几行代码, 使用沙箱 (<a href='http://plnkr.co/edit/?p=preview'>plnkr</a>, <a href='http://jsbin.com'>JSBin</a>, <a href='http://codepen.io'>codepen</a>…) 发表超过10行代码
+    - 如果你有什么不懂, 请详细说明.
 
-edit_on_github: Edit on Github
-hide_forever: hide permanently
-Error: Error
-close: close
-Close: Close
+edit_on_github: 在 Github 上编辑
+hide_forever: 永久隐藏
+Error: 错误
+close: 关闭
+Close: 关闭
 
-hidden_forever: This information will not show up any more.
+hidden_forever: 这个信息不会再显示.
 
 profile_tab_names:
-  quiz: Quizes
-  orders: Orders
-  courses: Courses
-  aboutme: Public profile
-  subscriptions: Notifications
-  jobs: Jobs
-  account: Account
+  quiz: 小测试
+  orders: 订单
+  courses: 课程
+  aboutme: 公共摘要
+  subscriptions: 提醒
+  jobs: 工作
+  account: 账号

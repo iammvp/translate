@@ -1,13 +1,13 @@
-articles: Articles of the tutorial
-tasks: Tasks
-results: Search results
-search: Search
-find: Find
+articles: 教程文章
+tasks: 任务
+results: 搜索结果
+search: 搜索
+find: 查找
 
-shown_only_results: "Only first #{count} results are shown."
+shown_only_results: "只有开始的 #{count} 结果被展示."
 
 not_found:
-  prefix: Sorry, we couldn't find anything
-  articles: in the articles of the tutorial
-  tasks: in the tasks
+  prefix: 对不起, 我们没有找到任何东西
+  articles: 在教程的文章中
+  tasks: 在任务中
 

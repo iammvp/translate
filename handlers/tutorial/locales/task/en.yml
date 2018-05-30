@@ -1,17 +1,17 @@
 open_task:
   sandbox:
-    tests: Open the sandbox with tests.
-    no_tests: Open the sandbox for the task.
+    tests: 在沙盒中打开测试.
+    no_tests: 在沙盒中打开任务.
 
 open_solution:
   sandbox:
-    tests: Open the solution with tests in the sandbox.
-    no_tests: Open the solution in the sandbox.
+    tests: 在沙盒中打开测试答案.
+    no_tests: 在沙盒中打开解决方案.
 
-Importance: Importance
-importance: importance
-solution: solution
-importance_help: How important is the task, from 1 to 5
+Importance: 重要
+importance: 重要
+solution: 解决方案
+importance_help: 这个任务重要程度, 从1到5
 
-task_not_found: "Task \"#{path}\" not found"
-back_to_lesson: Back to the lesson
+task_not_found: "任务 \"#{path}\" 没有找到"
+back_to_lesson: 返回课程

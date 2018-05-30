@@ -1,24 +1,24 @@
 id:
-  no_such_image: No such image in database
-  email_already_taken: This email is already been used
-  confirm_email_change: Confirm email change
-  invalid_old_password: Old password is invalid.
+  no_such_image: 数据库中没有这样的图片.
+  email_already_taken: 这个邮箱已被使用.
+  confirm_email_change: 确认邮箱改变.
+  invalid_old_password: 旧密码不合法.
 
 verify_change_email:
-  title: 'Confirmation email change on #{host}'
-  text: To change email, please click the link
+  title: '确认邮箱改变 #{host}'
+  text: 点击这个链接改变邮箱
 
 user:
-  name_not_less: Username should not be less than 2 symbols
-  name_not_more: Username should not be more than 256 symbols
-  email_not_empty: Email should not be empty
-  invalid_email: Please specify valid email address
-  email_already_taken: This email is already been used.
-  invalid_gender: Invalid gender.
-  profile_name_not_less: Minimal length of profile name is 2 symbols.
-  profile_name_invalid: Profile name should contains only letters a-z, numbers and dash.
-  profile_name_not_more: Maximal length of profile name is 64 symbols.
-  profile_name_already_taken: This profile name is already taken.
-  password_not_less: Password should contain not less than 4 symbols.
-  account_was_removed: Account was removed
-  missing_teacher_email: Teacher's email is not specified.
+  name_not_less: 用户名不能少于2个字符
+  name_not_more: 用户名不得超多256个字符
+  email_not_empty: 邮箱不能为空
+  invalid_email: 请输入合法的邮箱
+  email_already_taken: 这个邮箱已被使用.
+  invalid_gender: 性别不合法.
+  profile_name_not_less: 归档名称最少2个字符
+  profile_name_invalid: 归档名称只能包含字母,数组和下划线
+  profile_name_not_more: 归档名称最长64个字符
+  profile_name_already_taken: 归档名称已经存在
+  password_not_less: 密码最少包含4个字符
+  account_was_removed: 账户被移除
+  missing_teacher_email: 没有输入老师的邮箱.
